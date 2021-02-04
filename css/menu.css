@@ -1,0 +1,44 @@
+#menu-bar{
+
+    display: none;
+}
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+.menu{
+ position: absolute;
+ top: 50px;
+ width: 1004%;
+transition: all 0.5s;
+transform: translateX(-100%);
+left: 0%;
+
+    
+   
+}
+.menu a{
+    left: 0%;
+background-color:#18222D;
+opacity: 0.8;
+display: block;
+color : white;
+height: 50px;
+text-decoration: none;
+padding: 15px;
+border-bottom: #18222D;
+
+}
+.menu a:hover{
+  background:  #18222D;
+  opacity: 0.5;
+
+}
+
+#menu-bar:checked ~.menu{
+    transform: translateX(0%);
+}
+
+

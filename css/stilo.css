@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+header{
+background-color: #18222D;
+height: 50px;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+
+}
+.contenedor{
+
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+ margin-top: 2%;
+    font-style:italic;
+  font-weight:bold;
+  font-size:1em;
+color: white;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+header.contenedor{
+
+    display: table;
+}
+.icon-menu{
+    color:white;
+}
+
+
+.imgSanfelipe{
+   width: 100%;
+   height: 100%;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-radius:0px;
+
+}
+.Fotos{
+position: absolute;
+
+
+}
+.imagenes{
+    margin-top: 0%;
+    
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 50px;
+    padding-top: 35px;
+position: relative;
+}
+.Menu{
+
+    
+    margin-top: 0px;
+    font-size: 20px;
+
+    margin-left: 75%;
+    background-color:#1A1D24;
+}
+h4{
+
+    color: crimson;
+    margin-left: 40%;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 20px;
+    mar
+      }
